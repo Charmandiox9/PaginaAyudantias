@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login y Register - MagtimusPro</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/style6.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu container">
+        <img class="logo-1" src="/assets/pinguino (yo).png" alt="" />
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="/assets/menu.png" class="menu-icono" alt="" />
+        </label>
+        <nav class="navbar">
+          <div class="menu-1">
+            <ul>
+              <li><a href="index.htm">Inicio</a></li>
+              <li><a href="informacion.html">Información</a></li>
+              <li><a href="programacion-orientada-objetos.html">POO</a></li>
+              <li><a href="programacion.html">Programación</a></li>
+            </ul>
+          </div>
+          <img class="logo-2" src="/assets/pinguino (yo).png" alt="" />
+
+          <div class="menu-2">
+            <div class="socials">
+              <a href="https://discord.com/users/700182705547116595">
+                <div class="social">
+                  <img src="/assets/discord.svg" alt="" />
+                </div>
+              </a>
+              <a href="mailto:daniel.duran02@alumnos.ucn.cl">
+                <div class="social">
+                  <img src="/assets/gmail.svg" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="contenedor__todo">
+        <div class="caja__trasera">
+          <div class="caja__trasera-login">
+            <h3>¿Ya tienes una cuenta?</h3>
+            <p>Inicia sesión para entrar en la página</p>
+            <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+          </div>
+          <div class="caja__trasera-register">
+            <h3>¿Aún no tienes una cuenta?</h3>
+            <p>Regístrate para que puedas iniciar sesión</p>
+            <button id="btn__registrarse">Regístrarse</button>
+          </div>
+        </div>
+
+        <!--Formulario de Login y registro-->
+        <div class="contenedor__login-register">
+          <!--Login-->
+          <form action="" class="formulario__login">
+            <h2>Iniciar Sesión</h2>
+            <input type="text" placeholder="Correo Electronico" />
+            <input type="password" placeholder="Contraseña" />
+            <button>Entrar</button>
+          </form>
+
+          <!--Register-->
+          <form action="" class="formulario__register">
+            <h2>Regístrarse</h2>
+            <input type="text" placeholder="Nombre completo" />
+            <input type="text" placeholder="Correo Electronico" />
+            <input type="text" placeholder="Usuario" />
+            <input type="password" placeholder="Contraseña" />
+            <button>Regístrarse</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
