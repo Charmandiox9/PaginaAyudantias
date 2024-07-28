@@ -322,13 +322,21 @@ body {
     display: flex;
   }
 
+  .menu .navbar ul {
+    flex-direction: row;
+    width: 100%;
+  }
+
   .menu .navbar ul li {
     width: 100%;
+    margin: 10px;
   }
 
   .menu .navbar ul li a {
     padding: 15px 0;
     text-align: center;
+    width: 100%;
+    font-size: 18px;
   }
 
   /* Ajustar la imagen del logo */
