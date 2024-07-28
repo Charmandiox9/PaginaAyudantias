@@ -1,0 +1,3 @@
+[build]
+  publish = "src"  # Directorio de publicación, ajusta según corresponda
+  command = "npm run build"  # El comando para construir tu proyecto, ajusta según corresponda
