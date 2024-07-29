@@ -1,0 +1,11 @@
+2024,Factura,56.343,Contabilizado
+2012,Boleta,32.540,No contabilizado
+2018,Nota de Crédito,15.890,Contabilizado
+2021,Cheque,45.230,No contabilizado
+2015,Recibo por Honorario,20.750,Contabilizado
+2013,Factura,60.120,No contabilizado
+2017,Boleta,25.340,Contabilizado
+2020,Nota de Crédito,12.470,Contabilizado
+2019,Cheque,38.560,No contabilizado
+2014,Recibo por Honorario,17.230,Contabilizado
+2016,Factura,50.450,No contabilizado
