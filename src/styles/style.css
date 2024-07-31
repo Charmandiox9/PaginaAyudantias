@@ -345,12 +345,15 @@ body {
   font-weight: 800;
 }
 
+.info-container {
+  background-color: #0d0d0d;
+}
+
 .info {
   padding: 100px 0px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #181818;
 }
 
 .info-img {
