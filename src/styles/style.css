@@ -533,7 +533,7 @@ body {
     padding: 15px 0;
     text-align: center;
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   /* Ajustar la imagen del logo */
@@ -616,6 +616,16 @@ body {
     width: 33%;
   }
 
+  .product-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .product-img img {
+    margin-right: 0;
+    width: 300px;
+  }
+
   .info {
     padding: 30px;
     flex-direction: column;
@@ -627,8 +637,8 @@ body {
   }
 
   .info-img img {
-    width: 400px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 25px;
   }
 
