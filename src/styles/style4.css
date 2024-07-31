@@ -340,7 +340,7 @@ body {
     padding: 15px 0;
     text-align: center;
     width: 100%;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   /* Ajustar la imagen del logo */
@@ -434,8 +434,8 @@ body {
   }
 
   .info-img img {
-    width: 400px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 25px;
   }
 
