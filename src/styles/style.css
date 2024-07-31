@@ -350,6 +350,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #0d0d0d;
 }
 
 .info-img {
@@ -407,7 +408,6 @@ body {
 
 .horario {
   padding: 100px 0px;
-  background-color: #0d0d0d;
 }
 
 .horario-info {
