@@ -622,7 +622,7 @@ body {
   }
 
   .product-img {
-    width: 40%;
+    width: 20%;
   }
 
   .product-img img {
@@ -631,8 +631,9 @@ body {
   }
 
   .product-txt {
-    width: 40%;
+    width: 20%;
     margin-left: 0;
+    margin-top: 5px;
   }
 
   .product-txt h4,
@@ -642,7 +643,7 @@ body {
   }
 
   .swiper {
-    width: 100%;
+    width: 40%;
   }
 
   .swiper-slide {
