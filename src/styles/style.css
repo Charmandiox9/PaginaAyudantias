@@ -613,7 +613,7 @@ body {
   }
 
   .tabs label {
-    width: 50%;
+    width: 40%;
     padding: 15px 0px;
   }
 
@@ -622,7 +622,7 @@ body {
   }
 
   .product-img {
-    width: 100%;
+    width: 40%;
   }
 
   .product-img img {
@@ -631,7 +631,7 @@ body {
   }
 
   .product-txt {
-    width: 100%;
+    width: 40%;
     margin-left: 0;
   }
 
